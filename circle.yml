@@ -10,7 +10,7 @@ test:
   override:
     - jekyll build
 
-deploy:
+deployment:
   production:
     branch: master
     commands:
