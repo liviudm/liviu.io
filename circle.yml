@@ -8,10 +8,10 @@ general:
 
 test:
   override:
-    - jekyll build
+    - bundle exec jekyll build
 
 deployment:
   production:
     branch: master
     commands:
-      - s3_website push
+      - bundle exec s3_website push
