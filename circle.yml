@@ -1,0 +1,17 @@
+machine:
+  ruby:
+    version: 2.3.0
+
+general:
+  artifacts:
+    - "./_site"
+
+test:
+  override:
+    - jekyll build
+
+deploy:
+  production:
+    branch: master
+    commands:
+      - s3_website push
