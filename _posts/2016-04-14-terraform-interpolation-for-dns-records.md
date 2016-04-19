@@ -63,6 +63,9 @@ If you're interested in learning more about variable interpolation, check the [T
 
 In the next article I'm going to show you something slightly more complex. We are going to pick up where we left and configure PTR records the same way.
 
+Please check part 2 of this article: [Creating DNS PTR Records with Terraform][next-article]
+
 Did you enjoy this article? Feel free to leave your comments or submit suggestions bellow.
 
 [tf-interpolation]: https://www.terraform.io/docs/configuration/interpolation.html
+[next-article]: https://liviu.io/2016/terraform-interpolation-dns-ptr-records/
